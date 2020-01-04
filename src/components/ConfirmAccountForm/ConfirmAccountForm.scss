@@ -1,0 +1,37 @@
+.formControl {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+}
+.formControl:focus {
+    z-index: 2;
+}
+#mobileInputConfirm, #otacInput {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-bottom: 20px;
+}
+#passwordInputLogin {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    margin-bottom: 20px;
+}
+#validationAlert {
+    margin-top: 10px;
+    font-size: 0.8em;
+}
+#sendOtacBtn, #sendCodeBtn {
+    margin-bottom: 20px !important;
+}
+#btnMobileTitle {
+    pointer-events: none;
+    margin-bottom: 20px;
+}
+#btnChangeMobile, #backToMobile, #changeMobileBtn {
+    margin-top: 15px;
+    font-size: 1.2em;
+    cursor: pointer;
+    text-decoration: underline;
+}
