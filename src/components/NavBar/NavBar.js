@@ -71,13 +71,16 @@ const NavBar = (props) => {
                                 activeClassName="is-active"
                                 to="/">Home</NavLink>
                         </NavItem>
-                        <NavItem>
-                            <NavLink
-                                exact={true}
-                                tag={LinkNav}
-                                activeClassName="is-active"
-                                to="/profile">Profile</NavLink>
-                        </NavItem>
+                        {(user && user.isAuthenticated)
+                            ?
+                            <NavItem>
+                                <NavLink
+                                    exact={true}
+                                    tag={LinkNav}
+                                    activeClassName="is-active"
+                                    to="/profile">Profile</NavLink>
+                            </NavItem>
+                            : null}
                         {loginLogout}
                     </Nav>
                 </Collapse>
