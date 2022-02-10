@@ -11,7 +11,7 @@
     "react-scripts": "3.3.0",
     "bootstrap": "^4.4.1",
     "reactstrap": "^8.2.0",
-    "node-sass": "^4.13.0",
+    "node-sass": "^7.0.0",
     "react-router-dom": "^5.1.2",
     "@hapi/joi": "^16.1.8"
   },
